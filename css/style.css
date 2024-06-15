@@ -1470,7 +1470,7 @@ p::first-letter {
         font-size: 4px;
     }
     .end-icon {
-        gap: 4px;
+        gap: 6px;
         width: 40%;
     }
     .end-icon i{
