@@ -1471,7 +1471,8 @@ p::first-letter {
     }
     .end-icon {
         gap: 6px;
-        width: 40%;
+        width: 60%;
+        justify-content: center;
     }
     .end-icon i{
         font-size: 7px;
