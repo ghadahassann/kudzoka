@@ -1207,7 +1207,8 @@ p::first-letter {
     align-items: center;
     position: relative;
     padding: 10px 10px 10px 50px;
-    background-color: var(--white-color);
+    background-color: rgba(255,255,255,0.9);
+    
     border-radius: 10px ;
     width: 80px;
 }
@@ -1275,12 +1276,8 @@ p::first-letter {
         gap: 20px;
     }
     .end-content-1 .store{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
+        
         padding: 10px 10px 10px 40px;
-        background-color: var(--white-color);
         border-radius: 10px ;
         width: 70px;
     }
@@ -1338,12 +1335,7 @@ p::first-letter {
         gap: 20px;
     }
     .end-content-1 .store{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: relative;
         padding: 8px 8px 8px 30px;
-        background-color: var(--white-color);
         border-radius: 10px ;
         width: 60px;
     }
@@ -1403,7 +1395,6 @@ p::first-letter {
     }
     .end-content-1 .store{
         padding: 6px 6px 6px 25px;
-        background-color: var(--white-color);
         border-radius: 8px ;
         width: 50px;
     }
@@ -1457,12 +1448,12 @@ p::first-letter {
     .download-items {
         display: flex;
         gap: 8px;
+        margin-bottom: 2px;
     }
     .end-content-1 .store{
         padding: 4px 4px 4px 10px;
-        background-color: var(--white-color);
         border-radius: 6px ;
-        width: 20px;
+        width: 26px;
     }
     .store img {
         position: absolute;
@@ -1471,11 +1462,11 @@ p::first-letter {
         /* top: 15px; */
     }
     .store .download {
-        font-size: 2px;
+        font-size: 3px;
         font-weight: 600;
     }
     .store .store-name {
-        font-size: 3px;
+        font-size: 4px;
     }
     .end-icon {
         gap: 4px;
