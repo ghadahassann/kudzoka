@@ -481,6 +481,7 @@ p::first-letter {
 /* phones  */
 /* large phones and port tabs  */
 @media only screen and (max-width : 600px) {
+    
     .nav-bar {
         width: 100%;
         height: 70px;
@@ -1062,7 +1063,7 @@ p::first-letter {
     width: 25%;
 }
 .support-same img {
-    width: 50%;
+    width: 60%;
 }
 .support-section {
     width: 40%;
