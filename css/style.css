@@ -72,6 +72,11 @@ p::first-letter {
     border-bottom: 3px solid var(--purple-color);
 
 }
+.nav-2  a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .nav-2 .login {
     color: var(--main-color);
     background-color: var(--white-color);
@@ -483,34 +488,35 @@ p::first-letter {
         z-index: 50;
     }
     .nav-bar .nav-content {
-        padding: 8px 0px;
+        padding: 6px 0px;
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
     .nav-content .nav-1 {
         display: flex;
-        gap: 15px;
-        justify-content: space-between;
+        gap: 14px;
+        justify-content: center;
         align-items: center;
         
     }
     .nav-1 .nav-logo {
         width: 90px;
-        height: 60px;
+        height: 70px;
     }
     .nav-1 a {
-        padding-bottom: 5px;
-        font-size: 8px;
+        padding-bottom: 4px;
+        font-size: 6px;
     }
+
     
     .nav-2 .login {
         color: var(--main-color);
         background-color: var(--white-color);
-        padding: 3px 12px;
-        border-radius: 12px ;
+        padding: 3px 11px;
+        border-radius: 10px ;
         border: none;
-        font-size: 8px;
+        font-size: 6px;
     }
     /* nav-bar section end  */
     
@@ -533,12 +539,12 @@ p::first-letter {
         width: 40%;
     }
     .home-desc h1 {
-        font-size: 16px;
+        font-size: 13px;
         color: var(--title-color);
     
     }
     .home-desc P {
-        font-size: 8px;
+        font-size: 7px;
         color: var(--main-color);
     }
     
@@ -546,26 +552,26 @@ p::first-letter {
         position: absolute;
     }
     .home-img-1 {
-        right: 8%;
-        top: 16%;
-        height: 50%;
+        right: 6%;
+        top: 15%;
+        height: 40%;
         z-index: 3;
     }
     .home-img-2 {
-        right: -3%;
+        right: -9%;
         top: 14%;
         z-index: 2;
-        width: 40%;
+        width: 50%;
     }
     .home-img-3 {
-        top: 53%;
+        top: 40%;
         z-index: 4;
-        right: 12%;
-        width: 20%;
-        height: 35%;
+        right: 6%;
+        width: 30%;
+        height: 45%;
     }
     .home-img-4 {
-        bottom: -3%;
+        bottom: 0%;
         right: 12%;
         width: 95%;
     }
@@ -961,7 +967,7 @@ p::first-letter {
     }
     .choose-cont{
         position:absolute;
-        top: 77%;
+        top: 75%;
         left: 17%;
     }
     .choose-cont span {
@@ -975,7 +981,7 @@ p::first-letter {
         color: var(--white-color);
         text-transform: uppercase;
         font-weight: 500;
-        font-size: 8px;
+        font-size: 7px;
         margin: 0;
     }
     
@@ -1005,11 +1011,11 @@ p::first-letter {
     }
     .bene-size .bene-title {
         
-        font-size: 10px;
+        font-size: 8px;
         font-weight: 600;
     }
     .bene-size .bene-para {
-        font-size: 6px;
+        font-size: 5px;
         width: 91%;
     }
     .benefits-content img {
@@ -1149,15 +1155,15 @@ p::first-letter {
         padding-top: 50px;
     }
     .support-section .support-title {
-        font-size: 8px;
+        font-size: 7px;
         padding-bottom: 6px;
     }
     .support-section .support-para{
         width: 60%;
-        font-size: 8px;
+        font-size: 6px;
     }
     .support-section i{
-        font-size: 10px;
+        font-size: 9px;
     }
 }
 
@@ -1447,36 +1453,36 @@ p::first-letter {
 
 
     .end-content-1 {
-        gap: 8px;
+        gap: 6px;
     }
     .download-items {
         display: flex;
-        gap: 10px;
+        gap: 8px;
     }
     .end-content-1 .store{
-        padding: 5px 5px 5px 20px;
+        padding: 4px 4px 4px 15px;
         background-color: var(--white-color);
         border-radius: 6px ;
-        width: 40px;
+        width: 30px;
     }
     .store img {
         position: absolute;
         width: 8px;
-        left: 5px;
+        left: 4px;
         /* top: 15px; */
     }
     .store .download {
-        font-size: 5px;
+        font-size: 3px;
         font-weight: 600;
     }
     .store .store-name {
-        font-size: 7px;
+        font-size: 5px;
     }
     .end-icon {
         gap: 6px;
     }
     .end-icon i{
-        font-size: 13px;
+        font-size: 10px;
         color: var(--white-color);
     
     }
@@ -1489,7 +1495,7 @@ p::first-letter {
         
     }
     .end-ref a {
-        font-size: 8px;
+        font-size: 6px;
         color: var(--white-color);
     
     }
