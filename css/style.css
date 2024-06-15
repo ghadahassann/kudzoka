@@ -1007,8 +1007,8 @@ p::first-letter {
         width: 60%;
         height: 60%;
         z-index: 5;
-        top: 22%;
-        left: 25%;
+        top: 25%;
+        left: 24%;
     }
     .bene-size .bene-title {
         
@@ -1451,8 +1451,6 @@ p::first-letter {
     .end {
         padding-top: 40px;
     }
-
-
     .end-content-1 {
         gap: 6px;
     }
@@ -1461,29 +1459,30 @@ p::first-letter {
         gap: 8px;
     }
     .end-content-1 .store{
-        padding: 4px 4px 4px 15px;
+        padding: 4px 4px 4px 10px;
         background-color: var(--white-color);
         border-radius: 6px ;
-        width: 30px;
+        width: 20px;
     }
     .store img {
         position: absolute;
-        width: 8px;
+        width: 6px;
         left: 4px;
         /* top: 15px; */
     }
     .store .download {
-        font-size: 3px;
+        font-size: 2px;
         font-weight: 600;
     }
     .store .store-name {
-        font-size: 5px;
+        font-size: 3px;
     }
     .end-icon {
-        gap: 6px;
+        gap: 4px;
+        width: 40%;
     }
     .end-icon i{
-        font-size: 10px;
+        font-size: 7px;
         color: var(--white-color);
     
     }
@@ -1496,7 +1495,7 @@ p::first-letter {
         
     }
     .end-ref a {
-        font-size: 6px;
+        font-size: 5px;
         color: var(--white-color);
     
     }
