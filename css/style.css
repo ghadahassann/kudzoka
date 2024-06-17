@@ -278,7 +278,7 @@ p::first-letter {
         font-size: 20px;
     }
     .menu a {
-        color: var(--white-color);
+        color: var(--para-color);
         /* display: block; */
         font-size: 11px;
         padding: 5px;
@@ -290,11 +290,12 @@ p::first-letter {
         justify-content: flex-start;
         align-items: flex-start ;
         position: absolute;
-        background-color: rgb(48, 103, 124,0.9);
+        background-color: #d3cce6;
         right: 0;
         top: 60px;
         width: 30%;
         padding: 5px;
+        border-radius: 10px;
         
     }
     .nav-bar {
@@ -417,9 +418,9 @@ p::first-letter {
         color: #44b7e5;
     }
     .menu a {
-        color: var(--white-color);
+        color: var(--para-color);
         /* display: block; */
-        font-size: 8px;
+        font-size: 9px;
         padding: 5px;
         letter-spacing: 0.5px;
     }
@@ -429,11 +430,12 @@ p::first-letter {
         justify-content: flex-start;
         align-items: flex-start ;
         position: absolute;
-        background-color: rgb(48, 103, 124,0.9);
+        background-color: #d3cce6;
         right: 0;
         top: 50px;
         width: 30%;
         padding: 4px;
+        border-radius:8px ;
         
     }
     .nav-bar {
@@ -547,11 +549,12 @@ p::first-letter {
 
     }
     .nav-2 .fa-bars {
+        font-size: 14px;
         display: block;
         color: #44b7e5;
     }
     .menu a {
-        color: var(--white-color);
+        color: var(--para-color);
         /* display: block; */
         font-size: 7px;
         padding: 4px;
@@ -563,11 +566,12 @@ p::first-letter {
         justify-content: flex-start;
         align-items: flex-start ;
         position: absolute;
-        background-color: rgb(48, 103, 124,0.9);
+        background-color: #d3cce6;
         right: 0;
         top: 40px;
         width: 30%;
         padding: 3px;
+        border-radius: 6px
         
     }
     
